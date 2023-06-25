@@ -1,4 +1,4 @@
-#include "BankAccount.h"
+ï»¿#include "BankAccount.h"
 
 
 
@@ -68,13 +68,13 @@ bool BankAccount::operator>(const BankAccount& b)
 		return true;
 	else if (_balance < 0 && b._balance < 0)
 	{
-		//float f = std::abs(b._balance) - std::abs(_balance); // äëÿ îòëàäêè
+		//float f = std::abs(b._balance) - std::abs(_balance); // Ð´Ð»Ñ Ð¾Ñ‚Ð»Ð°Ð´ÐºÐ¸
 		if (std::abs(b._balance) - std::abs(_balance) > 0.009)
 			return true;
 	}
 	else if (_balance > 0 && b._balance > 0)
 	{
-		//float f = _balance - b._balance;		// äëÿ îòëàäêè
+		//float f = _balance - b._balance;		// Ð´Ð»Ñ Ð¾Ñ‚Ð»Ð°Ð´ÐºÐ¸
 		if ((_balance - b._balance) > 0.009)
 			return true;
 	}

@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <locale.h>
 #include <windows.h>
 #include <cstdlib>
@@ -8,7 +8,7 @@
 
 int main() {
 	setlocale(LC_ALL, "Russian");
-	SetConsoleCP(1251); // установка кодовой страницы на ввод текста
+	SetConsoleCP(1251); // СѓСЃС‚Р°РЅРѕРІРєР° РєРѕРґРѕРІРѕР№ СЃС‚СЂР°РЅРёС†С‹ РЅР° РІРІРѕРґ С‚РµРєСЃС‚Р°
 	
 	BankAccount b1(11200.23);
 	BankAccount b2(11200.24);
